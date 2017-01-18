@@ -65,7 +65,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=['lib/language_recognition'],
+    packages=['lib'],
     scripts=['lib/language_recognition.py'],
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
