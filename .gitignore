@@ -1,0 +1,5 @@
+dist/
+build/
+speechlib.egg-info/
+__pycache__/
+*.mp3

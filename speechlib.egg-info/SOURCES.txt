@@ -1,0 +1,9 @@
+README.rst
+setup.py
+lib/__init__.py
+lib/language_recognition.py
+speechlib.egg-info/PKG-INFO
+speechlib.egg-info/SOURCES.txt
+speechlib.egg-info/dependency_links.txt
+speechlib.egg-info/requires.txt
+speechlib.egg-info/top_level.txt
