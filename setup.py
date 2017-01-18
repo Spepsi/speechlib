@@ -75,7 +75,7 @@ setup(
     install_requires=[
           'gtts',
           'SpeechRecognition'
-      ]
+      ],
     # C'est un système de plugin, mais on s'en sert presque exclusivement
     # Pour créer des commandes, comme "django-admin".
     # Par exemple, si on veut créer la fabuleuse commande "proclame-sm", on
