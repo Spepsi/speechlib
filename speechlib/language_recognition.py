@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import speech_recognition as sr
 from gtts import gTTS
 import os
 
+__all__ = ['get_voice', 'talk']
 # obtain audio from the microphone
 r = sr.Recognizer()
 
@@ -32,3 +34,6 @@ def talk(sentence):
     os.system("mpg321 sample.mp3")
     print("bot : "+str(sentence))
     return sentence
+
+if __name__=='__main__':
+    talk('coucou')

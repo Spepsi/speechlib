@@ -1,1 +1,12 @@
-This module allows speech recognition and speech modelisation
+Speech Lib - Librairie de reconnaissance vocale
+========================================================
+
+
+    pip3 install speechlib
+
+Exemple d'usage:
+
+    >>> from speechlib import talk
+    >>> talk('coucou')
+
+Ce code est sous licence WTFPL.
